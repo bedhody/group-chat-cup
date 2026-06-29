@@ -1,0 +1,26 @@
+[
+  {
+    "at": "2026-06-29",
+    "completed": 1,
+    "pWin": {
+      "Dhody": 26.9,
+      "Shishu": 16.7,
+      "Misra": 11.6,
+      "Mad": 6.3,
+      "Kuks": 6.4,
+      "Shri": 11.8,
+      "Anuj": 11.3,
+      "Dhirani": 9
+    },
+    "expRank": {
+      "Dhody": 2.93,
+      "Shishu": 4.18,
+      "Misra": 4.75,
+      "Mad": 4.42,
+      "Kuks": 5.38,
+      "Shri": 4.81,
+      "Anuj": 4.61,
+      "Dhirani": 4.91
+    }
+  }
+]

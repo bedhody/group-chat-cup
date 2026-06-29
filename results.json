@@ -1,0 +1,7 @@
+{
+  "lastUpdated": "2026-06-29",
+  "note": "Only completed knockout games go here. The daily routine adds a line per finished match. winner = team code that ADVANCED (after pens if needed). homeGoals/awayGoals = the score in regulation+ET (a penalty-shootout win is recorded as the drawn score, with winner set to whoever advanced).",
+  "matches": {
+    "m73": { "homeGoals": 0, "awayGoals": 1, "winner": "CAN" }
+  }
+}

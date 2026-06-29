@@ -1,0 +1,1241 @@
+{
+  "generatedAt": "2026-06-29",
+  "nSims": 50000,
+  "completed": 1,
+  "players": [
+    {
+      "name": "Dhody",
+      "a": "ARG",
+      "b": "CAN",
+      "aTeam": {
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "elo": 2045
+      },
+      "bTeam": {
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "elo": 1795
+      },
+      "rankProbs": [
+        0.26894,
+        0.24452,
+        0.1734,
+        0.10958,
+        0.0815,
+        0.06218,
+        0.0424,
+        0.01748
+      ],
+      "pWin": 0.26894,
+      "pTop3": 0.68686,
+      "pBottom3": 0.12206,
+      "expRank": 2.93372,
+      "expScore": 6.72636,
+      "watch": [
+        {
+          "matchId": "m85",
+          "root": "ALG",
+          "vs": "SUI",
+          "swing": 0.48622415039389955,
+          "winSwing": 0.1204908923041185,
+          "rootImprovesRankBy": 0.48622415039389955,
+          "rootRaisesWinBy": 0.1204908923041185
+        },
+        {
+          "matchId": "m87",
+          "root": "GHA",
+          "vs": "COL",
+          "swing": 0.43339651213175134,
+          "winSwing": 0.0733380957958654,
+          "rootImprovesRankBy": 0.43339651213175134,
+          "rootRaisesWinBy": 0.0733380957958654
+        },
+        {
+          "matchId": "m75",
+          "root": "MAR",
+          "vs": "NED",
+          "swing": 0.3512056436798465,
+          "winSwing": 0.036467487145171784,
+          "rootImprovesRankBy": 0.3512056436798465,
+          "rootRaisesWinBy": 0.036467487145171784
+        },
+        {
+          "matchId": "m79",
+          "root": "ECU",
+          "vs": "MEX",
+          "swing": 0.3481151483205571,
+          "winSwing": 0.04394521501676585,
+          "rootImprovesRankBy": 0.3481151483205571,
+          "rootRaisesWinBy": 0.04394521501676585
+        }
+      ]
+    },
+    {
+      "name": "Shishu",
+      "a": "FRA",
+      "b": "SUI",
+      "aTeam": {
+        "code": "FRA",
+        "name": "France",
+        "flag": "🇫🇷",
+        "elo": 2075
+      },
+      "bTeam": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "elo": 1850
+      },
+      "rankProbs": [
+        0.16708,
+        0.13268,
+        0.1279,
+        0.12522,
+        0.12132,
+        0.11608,
+        0.11334,
+        0.09638
+      ],
+      "pWin": 0.16708,
+      "pTop3": 0.42766000000000004,
+      "pBottom3": 0.3258,
+      "expRank": 4.18452,
+      "expScore": 8.42152,
+      "watch": [
+        {
+          "matchId": "m74",
+          "root": "PAR",
+          "vs": "GER",
+          "swing": 0.7397925515373975,
+          "winSwing": 0.061162846171266494,
+          "rootImprovesRankBy": 0.7397925515373975,
+          "rootRaisesWinBy": 0.061162846171266494
+        },
+        {
+          "matchId": "m86",
+          "root": "CPV",
+          "vs": "ARG",
+          "swing": 0.4889274266870127,
+          "winSwing": 0.05596925768593003,
+          "rootImprovesRankBy": 0.4889274266870127,
+          "rootRaisesWinBy": 0.05596925768593003
+        },
+        {
+          "matchId": "m87",
+          "root": "GHA",
+          "vs": "COL",
+          "swing": 0.42209402528172824,
+          "winSwing": 0.037445241970933046,
+          "rootImprovesRankBy": 0.42209402528172824,
+          "rootRaisesWinBy": 0.037445241970933046
+        },
+        {
+          "matchId": "m75",
+          "root": "MAR",
+          "vs": "NED",
+          "swing": 0.34308223776467495,
+          "winSwing": 0.02538886684246275,
+          "rootImprovesRankBy": 0.34308223776467495,
+          "rootRaisesWinBy": 0.02538886684246275
+        }
+      ]
+    },
+    {
+      "name": "Misra",
+      "a": "ESP",
+      "b": "SEN",
+      "aTeam": {
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "elo": 2055
+      },
+      "bTeam": {
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "elo": 1865
+      },
+      "rankProbs": [
+        0.116,
+        0.10414,
+        0.1051,
+        0.12096,
+        0.13462,
+        0.13222,
+        0.13368,
+        0.15328
+      ],
+      "pWin": 0.116,
+      "pTop3": 0.32524,
+      "pBottom3": 0.41918,
+      "expRank": 4.75184,
+      "expScore": 9.40156,
+      "watch": [
+        {
+          "matchId": "m84",
+          "root": "CRO",
+          "vs": "POR",
+          "swing": 0.4604303663745055,
+          "winSwing": 0.03312198577142121,
+          "rootImprovesRankBy": 0.4604303663745055,
+          "rootRaisesWinBy": 0.03312198577142121
+        },
+        {
+          "matchId": "m81",
+          "root": "BIH",
+          "vs": "USA",
+          "swing": 0.4374603111123676,
+          "winSwing": 0.03759527720648796,
+          "rootImprovesRankBy": 0.4374603111123676,
+          "rootRaisesWinBy": 0.03759527720648796
+        },
+        {
+          "matchId": "m86",
+          "root": "CPV",
+          "vs": "ARG",
+          "swing": 0.40049549337954193,
+          "winSwing": 0.040471022274422785,
+          "rootImprovesRankBy": 0.40049549337954193,
+          "rootRaisesWinBy": 0.040471022274422785
+        },
+        {
+          "matchId": "m79",
+          "root": "ECU",
+          "vs": "MEX",
+          "swing": 0.31293466445811546,
+          "winSwing": 0.007357446590585917,
+          "rootImprovesRankBy": 0.31293466445811546,
+          "rootRaisesWinBy": 0.007357446590585917
+        }
+      ]
+    },
+    {
+      "name": "Mad",
+      "a": "ENG",
+      "b": "MEX",
+      "aTeam": {
+        "code": "ENG",
+        "name": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "elo": 2005
+      },
+      "bTeam": {
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "elo": 1895
+      },
+      "rankProbs": [
+        0.06336,
+        0.13326,
+        0.17314,
+        0.17616,
+        0.14294,
+        0.11728,
+        0.10234,
+        0.09152
+      ],
+      "pWin": 0.06336,
+      "pTop3": 0.36976,
+      "pBottom3": 0.31113999999999997,
+      "expRank": 4.42086,
+      "expScore": 8.96254,
+      "watch": [
+        {
+          "matchId": "m86",
+          "root": "CPV",
+          "vs": "ARG",
+          "swing": 0.5456871164816035,
+          "winSwing": 0.041806242579126913,
+          "rootImprovesRankBy": 0.5456871164816035,
+          "rootRaisesWinBy": 0.041806242579126913
+        },
+        {
+          "matchId": "m76",
+          "root": "JPN",
+          "vs": "BRA",
+          "swing": 0.40708904570866533,
+          "winSwing": 0.02415593567435053,
+          "rootImprovesRankBy": 0.40708904570866533,
+          "rootRaisesWinBy": 0.02415593567435053
+        },
+        {
+          "matchId": "m85",
+          "root": "ALG",
+          "vs": "SUI",
+          "swing": 0.3885369222674848,
+          "winSwing": 0.03741862459354242,
+          "rootImprovesRankBy": 0.3885369222674848,
+          "rootRaisesWinBy": 0.03741862459354242
+        },
+        {
+          "matchId": "m87",
+          "root": "GHA",
+          "vs": "COL",
+          "swing": 0.34632889248471077,
+          "winSwing": 0.020370651367244905,
+          "rootImprovesRankBy": 0.34632889248471077,
+          "rootRaisesWinBy": 0.020370651367244905
+        }
+      ]
+    },
+    {
+      "name": "Kuks",
+      "a": "NED",
+      "b": "NOR",
+      "aTeam": {
+        "code": "NED",
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "elo": 1960
+      },
+      "bTeam": {
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "elo": 1840
+      },
+      "rankProbs": [
+        0.06382,
+        0.07406,
+        0.0875,
+        0.10306,
+        0.12572,
+        0.15738,
+        0.18414,
+        0.20432
+      ],
+      "pWin": 0.06382,
+      "pTop3": 0.22538,
+      "pBottom3": 0.54584,
+      "expRank": 5.3831,
+      "expScore": 10.30726,
+      "watch": [
+        {
+          "matchId": "m76",
+          "root": "JPN",
+          "vs": "BRA",
+          "swing": 0.5225078999251842,
+          "winSwing": 0.027660369412614003,
+          "rootImprovesRankBy": 0.5225078999251842,
+          "rootRaisesWinBy": 0.027660369412614003
+        },
+        {
+          "matchId": "m87",
+          "root": "GHA",
+          "vs": "COL",
+          "swing": 0.37422648515362855,
+          "winSwing": 0.005125740057462844,
+          "rootImprovesRankBy": 0.37422648515362855,
+          "rootRaisesWinBy": 0.005125740057462844
+        },
+        {
+          "matchId": "m77",
+          "root": "SWE",
+          "vs": "FRA",
+          "swing": 0.36908730617166174,
+          "winSwing": 0.0226399207451636,
+          "rootImprovesRankBy": 0.36908730617166174,
+          "rootRaisesWinBy": 0.0226399207451636
+        },
+        {
+          "matchId": "m79",
+          "root": "ECU",
+          "vs": "MEX",
+          "swing": 0.33433312601405785,
+          "winSwing": 0.005119765167693954,
+          "rootImprovesRankBy": 0.33433312601405785,
+          "rootRaisesWinBy": 0.005119765167693954
+        }
+      ]
+    },
+    {
+      "name": "Shri",
+      "a": "BRA",
+      "b": "BEL",
+      "aTeam": {
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "elo": 2000
+      },
+      "bTeam": {
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "elo": 1895
+      },
+      "rankProbs": [
+        0.11768,
+        0.10844,
+        0.10132,
+        0.1093,
+        0.121,
+        0.135,
+        0.14292,
+        0.16434
+      ],
+      "pWin": 0.11768,
+      "pTop3": 0.32743999999999995,
+      "pBottom3": 0.44226,
+      "expRank": 4.80588,
+      "expScore": 9.4632,
+      "watch": [
+        {
+          "matchId": "m81",
+          "root": "BIH",
+          "vs": "USA",
+          "swing": 0.42637354450369,
+          "winSwing": 0.03966775272670055,
+          "rootImprovesRankBy": 0.42637354450369,
+          "rootRaisesWinBy": 0.03966775272670055
+        },
+        {
+          "matchId": "m86",
+          "root": "CPV",
+          "vs": "ARG",
+          "swing": 0.3995332544921464,
+          "winSwing": 0.045339388064687736,
+          "rootImprovesRankBy": 0.3995332544921464,
+          "rootRaisesWinBy": 0.045339388064687736
+        },
+        {
+          "matchId": "m87",
+          "root": "GHA",
+          "vs": "COL",
+          "swing": 0.3332877613245975,
+          "winSwing": 0.006892915227700053,
+          "rootImprovesRankBy": 0.3332877613245975,
+          "rootRaisesWinBy": 0.006892915227700053
+        },
+        {
+          "matchId": "m85",
+          "root": "ALG",
+          "vs": "SUI",
+          "swing": 0.32699277667585314,
+          "winSwing": 0.030413468132994184,
+          "rootImprovesRankBy": 0.32699277667585314,
+          "rootRaisesWinBy": 0.030413468132994184
+        }
+      ]
+    },
+    {
+      "name": "Anuj",
+      "a": "USA",
+      "b": "GER",
+      "aTeam": {
+        "code": "USA",
+        "name": "USA",
+        "flag": "🇺🇸",
+        "elo": 1925
+      },
+      "bTeam": {
+        "code": "GER",
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "elo": 1970
+      },
+      "rankProbs": [
+        0.11346,
+        0.11058,
+        0.11658,
+        0.1259,
+        0.13614,
+        0.1467,
+        0.14206,
+        0.10858
+      ],
+      "pWin": 0.11346,
+      "pTop3": 0.34062000000000003,
+      "pBottom3": 0.39734,
+      "expRank": 4.61192,
+      "expScore": 9.0971,
+      "watch": [
+        {
+          "matchId": "m77",
+          "root": "SWE",
+          "vs": "FRA",
+          "swing": 1.0395129353440162,
+          "winSwing": 0.09328369315209326,
+          "rootImprovesRankBy": 1.0395129353440162,
+          "rootRaisesWinBy": 0.09328369315209326
+        },
+        {
+          "matchId": "m86",
+          "root": "CPV",
+          "vs": "ARG",
+          "swing": 0.41318968361404806,
+          "winSwing": 0.03990863255715471,
+          "rootImprovesRankBy": 0.41318968361404806,
+          "rootRaisesWinBy": 0.03990863255715471
+        },
+        {
+          "matchId": "m79",
+          "root": "ECU",
+          "vs": "MEX",
+          "swing": 0.39766247927836496,
+          "winSwing": 0.006765178726835699,
+          "rootImprovesRankBy": 0.39766247927836496,
+          "rootRaisesWinBy": 0.006765178726835699
+        },
+        {
+          "matchId": "m75",
+          "root": "MAR",
+          "vs": "NED",
+          "swing": 0.38062074803295687,
+          "winSwing": 0.02506244101621781,
+          "rootImprovesRankBy": 0.38062074803295687,
+          "rootRaisesWinBy": 0.02506244101621781
+        }
+      ]
+    },
+    {
+      "name": "Dhirani",
+      "a": "POR",
+      "b": "COL",
+      "aTeam": {
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "elo": 1975
+      },
+      "bTeam": {
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "elo": 1875
+      },
+      "rankProbs": [
+        0.08966,
+        0.09232,
+        0.11506,
+        0.12982,
+        0.13676,
+        0.13316,
+        0.13912,
+        0.1641
+      ],
+      "pWin": 0.08966,
+      "pTop3": 0.29703999999999997,
+      "pBottom3": 0.43638,
+      "expRank": 4.90816,
+      "expScore": 9.62046,
+      "watch": [
+        {
+          "matchId": "m83",
+          "root": "AUT",
+          "vs": "ESP",
+          "swing": 0.7259104792880526,
+          "winSwing": 0.062481517684461946,
+          "rootImprovesRankBy": 0.7259104792880526,
+          "rootRaisesWinBy": 0.062481517684461946
+        },
+        {
+          "matchId": "m86",
+          "root": "CPV",
+          "vs": "ARG",
+          "swing": 0.5471794308431024,
+          "winSwing": 0.051717727321715146,
+          "rootImprovesRankBy": 0.5471794308431024,
+          "rootRaisesWinBy": 0.051717727321715146
+        },
+        {
+          "matchId": "m85",
+          "root": "ALG",
+          "vs": "SUI",
+          "swing": 0.4239425226435678,
+          "winSwing": 0.02942383186841617,
+          "rootImprovesRankBy": 0.4239425226435678,
+          "rootRaisesWinBy": 0.02942383186841617
+        },
+        {
+          "matchId": "m76",
+          "root": "JPN",
+          "vs": "BRA",
+          "swing": 0.37636676527697244,
+          "winSwing": 0.02095546228915296,
+          "rootImprovesRankBy": 0.37636676527697244,
+          "rootRaisesWinBy": 0.02095546228915296
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "A": [
+      {
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "posProbs": [
+          0.23918,
+          0.21238,
+          0.17476,
+          0.12848,
+          0.07912,
+          0.06912,
+          0.05596,
+          0.041
+        ],
+        "reach": {
+          "R16": 0.90822,
+          "QF": 0.73968,
+          "SF": 0.57562,
+          "F": 0.3623,
+          "win": 0.20326
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "FRA",
+        "name": "France",
+        "flag": "🇫🇷",
+        "posProbs": [
+          0.20392,
+          0.14388,
+          0.13914,
+          0.1213,
+          0.12182,
+          0.1096,
+          0.09036,
+          0.06998
+        ],
+        "reach": {
+          "R16": 0.85676,
+          "QF": 0.60014,
+          "SF": 0.44978,
+          "F": 0.28724,
+          "win": 0.18164
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "posProbs": [
+          0.16528,
+          0.1483,
+          0.13188,
+          0.10816,
+          0.10822,
+          0.12122,
+          0.12278,
+          0.09416
+        ],
+        "reach": {
+          "R16": 0.82524,
+          "QF": 0.54884,
+          "SF": 0.39938,
+          "F": 0.23242,
+          "win": 0.14126
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "ENG",
+        "name": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "posProbs": [
+          0.12456,
+          0.14158,
+          0.13744,
+          0.14946,
+          0.14214,
+          0.12156,
+          0.10224,
+          0.08102
+        ],
+        "reach": {
+          "R16": 0.83138,
+          "QF": 0.5725,
+          "SF": 0.35198,
+          "F": 0.19994,
+          "win": 0.0997
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "NED",
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "posProbs": [
+          0.05954,
+          0.07948,
+          0.10766,
+          0.13166,
+          0.13622,
+          0.1318,
+          0.14672,
+          0.20692
+        ],
+        "reach": {
+          "R16": 0.62284,
+          "QF": 0.45268,
+          "SF": 0.18986,
+          "F": 0.09428,
+          "win": 0.04544
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "posProbs": [
+          0.10472,
+          0.12072,
+          0.11888,
+          0.1263,
+          0.12508,
+          0.11694,
+          0.13018,
+          0.15718
+        ],
+        "reach": {
+          "R16": 0.69672,
+          "QF": 0.51526,
+          "SF": 0.29932,
+          "F": 0.16964,
+          "win": 0.08368
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "USA",
+        "name": "USA",
+        "flag": "🇺🇸",
+        "posProbs": [
+          0.04236,
+          0.07164,
+          0.10334,
+          0.14632,
+          0.17004,
+          0.16304,
+          0.15434,
+          0.14892
+        ],
+        "reach": {
+          "R16": 0.72316,
+          "QF": 0.40886,
+          "SF": 0.16262,
+          "F": 0.06776,
+          "win": 0.02932
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "posProbs": [
+          0.06044,
+          0.08202,
+          0.0869,
+          0.08832,
+          0.11736,
+          0.16672,
+          0.19742,
+          0.20082
+        ],
+        "reach": {
+          "R16": 0.67348,
+          "QF": 0.30024,
+          "SF": 0.18782,
+          "F": 0.09016,
+          "win": 0.04526
+        },
+        "status": {
+          "alive": true
+        }
+      }
+    ],
+    "B": [
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "posProbs": [
+          0.10284,
+          0.17458,
+          0.22772,
+          0.229,
+          0.16944,
+          0.07912,
+          0.0173,
+          0
+        ],
+        "reach": {
+          "R16": 1,
+          "QF": 0.31618,
+          "SF": 0.0666,
+          "F": 0.01764,
+          "win": 0.00442
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "posProbs": [
+          0.13814,
+          0.12532,
+          0.10164,
+          0.10384,
+          0.12014,
+          0.1446,
+          0.13976,
+          0.12656
+        ],
+        "reach": {
+          "R16": 0.58956,
+          "QF": 0.3036,
+          "SF": 0.09888,
+          "F": 0.03658,
+          "win": 0.01092
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "posProbs": [
+          0.0886,
+          0.10882,
+          0.10022,
+          0.08474,
+          0.08578,
+          0.11392,
+          0.1714,
+          0.24652
+        ],
+        "reach": {
+          "R16": 0.45358,
+          "QF": 0.2151,
+          "SF": 0.06684,
+          "F": 0.0222,
+          "win": 0.00802
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "posProbs": [
+          0.11072,
+          0.10262,
+          0.10564,
+          0.11988,
+          0.13776,
+          0.14996,
+          0.14756,
+          0.12586
+        ],
+        "reach": {
+          "R16": 0.5842,
+          "QF": 0.23578,
+          "SF": 0.10848,
+          "F": 0.04526,
+          "win": 0.01592
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "posProbs": [
+          0.07046,
+          0.08476,
+          0.10038,
+          0.12044,
+          0.14494,
+          0.16512,
+          0.16466,
+          0.14924
+        ],
+        "reach": {
+          "R16": 0.53574,
+          "QF": 0.17894,
+          "SF": 0.06624,
+          "F": 0.0231,
+          "win": 0.00666
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "posProbs": [
+          0.12542,
+          0.13276,
+          0.118,
+          0.09342,
+          0.08264,
+          0.10278,
+          0.14888,
+          0.1961
+        ],
+        "reach": {
+          "R16": 0.54642,
+          "QF": 0.28408,
+          "SF": 0.09978,
+          "F": 0.03668,
+          "win": 0.01434
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "GER",
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "posProbs": [
+          0.19064,
+          0.12342,
+          0.1331,
+          0.14736,
+          0.14278,
+          0.11838,
+          0.08898,
+          0.05534
+        ],
+        "reach": {
+          "R16": 0.7666,
+          "QF": 0.3124,
+          "SF": 0.19196,
+          "F": 0.09486,
+          "win": 0.04668
+        },
+        "status": {
+          "alive": true
+        }
+      },
+      {
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "posProbs": [
+          0.17318,
+          0.14772,
+          0.1133,
+          0.10132,
+          0.11652,
+          0.12612,
+          0.12146,
+          0.10038
+        ],
+        "reach": {
+          "R16": 0.64178,
+          "QF": 0.36896,
+          "SF": 0.13248,
+          "F": 0.05128,
+          "win": 0.01644
+        },
+        "status": {
+          "alive": true
+        }
+      }
+    ]
+  },
+  "watchMeta": [
+    {
+      "matchId": "m74",
+      "round": "R32",
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "elo": 1970
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "flag": "🇵🇾",
+        "elo": 1770
+      }
+    },
+    {
+      "matchId": "m75",
+      "round": "R32",
+      "home": {
+        "code": "NED",
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "elo": 1960
+      },
+      "away": {
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "elo": 1875
+      }
+    },
+    {
+      "matchId": "m76",
+      "round": "R32",
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "elo": 2000
+      },
+      "away": {
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "🇯🇵",
+        "elo": 1860
+      }
+    },
+    {
+      "matchId": "m77",
+      "round": "R32",
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "flag": "🇫🇷",
+        "elo": 2075
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "flag": "🇸🇪",
+        "elo": 1795
+      }
+    },
+    {
+      "matchId": "m78",
+      "round": "R32",
+      "home": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "flag": "🇨🇮",
+        "elo": 1815
+      },
+      "away": {
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "elo": 1840
+      }
+    },
+    {
+      "matchId": "m79",
+      "round": "R32",
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "elo": 1895
+      },
+      "away": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "flag": "🇪🇨",
+        "elo": 1835
+      }
+    },
+    {
+      "matchId": "m80",
+      "round": "R32",
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "elo": 2005
+      },
+      "away": {
+        "code": "COD",
+        "name": "DR Congo",
+        "flag": "🇨🇩",
+        "elo": 1750
+      }
+    },
+    {
+      "matchId": "m81",
+      "round": "R32",
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "flag": "🇺🇸",
+        "elo": 1925
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia",
+        "flag": "🇧🇦",
+        "elo": 1765
+      }
+    },
+    {
+      "matchId": "m82",
+      "round": "R32",
+      "home": {
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "elo": 1895
+      },
+      "away": {
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "elo": 1865
+      }
+    },
+    {
+      "matchId": "m83",
+      "round": "R32",
+      "home": {
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "elo": 2055
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "elo": 1805
+      }
+    },
+    {
+      "matchId": "m84",
+      "round": "R32",
+      "home": {
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "elo": 1975
+      },
+      "away": {
+        "code": "CRO",
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "elo": 1855
+      }
+    },
+    {
+      "matchId": "m85",
+      "round": "R32",
+      "home": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "elo": 1850
+      },
+      "away": {
+        "code": "ALG",
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "elo": 1790
+      }
+    },
+    {
+      "matchId": "m86",
+      "round": "R32",
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "elo": 2045
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "flag": "🇨🇻",
+        "elo": 1700
+      }
+    },
+    {
+      "matchId": "m87",
+      "round": "R32",
+      "home": {
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "elo": 1875
+      },
+      "away": {
+        "code": "GHA",
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "elo": 1775
+      }
+    },
+    {
+      "matchId": "m88",
+      "round": "R32",
+      "home": {
+        "code": "AUS",
+        "name": "Australia",
+        "flag": "🇦🇺",
+        "elo": 1770
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "elo": 1825
+      }
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-06-29",
+      "completed": 1,
+      "pWin": {
+        "Dhody": 26.9,
+        "Shishu": 16.7,
+        "Misra": 11.6,
+        "Mad": 6.3,
+        "Kuks": 6.4,
+        "Shri": 11.8,
+        "Anuj": 11.3,
+        "Dhirani": 9
+      },
+      "expRank": {
+        "Dhody": 2.93,
+        "Shishu": 4.18,
+        "Misra": 4.75,
+        "Mad": 4.42,
+        "Kuks": 5.38,
+        "Shri": 4.81,
+        "Anuj": 4.61,
+        "Dhirani": 4.91
+      }
+    }
+  ]
+}
