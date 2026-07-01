@@ -6,6 +6,8 @@
     "m74": { "homeGoals": 1, "awayGoals": 1, "winner": "PAR" },
     "m75": { "homeGoals": 1, "awayGoals": 1, "winner": "MAR" },
     "m76": { "homeGoals": 2, "awayGoals": 1, "winner": "BRA" },
-    "m78": { "homeGoals": 1, "awayGoals": 2, "winner": "NOR" }
+    "m77": { "homeGoals": 3, "awayGoals": 0, "winner": "FRA" },
+    "m78": { "homeGoals": 1, "awayGoals": 2, "winner": "NOR" },
+    "m79": { "homeGoals": 2, "awayGoals": 0, "winner": "MEX" }
   }
 }
