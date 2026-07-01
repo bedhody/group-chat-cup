@@ -31,8 +31,12 @@ the odds. Keep it tight and deterministic.
    `✓ … wrote data.json` and a sensible leaderboard. This also appends a
    snapshot to `history.json` (drives the "movers" on the site).
 
-5. **Publish.** Push/redeploy so the live site updates (e.g. `git add -A &&
-   git commit -m "results: <date>" && git push` if hosted on GitHub Pages).
+5. **Publish — always, no confirmation needed.** The update is not "done" until
+   it is live. Every run must end with a push; a commit alone does nothing (the
+   site only moves on push). Run `git add -A && git commit -m "results: <date>"
+   && git push` and then verify the deployed `data.json` reflects the new
+   `completed` count. For this project the owner has standing approval to push
+   after each update — do **not** stop to ask.
 
 ## Guardrails
 
