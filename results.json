@@ -23,6 +23,7 @@
     "m91": { "homeGoals": 1, "awayGoals": 2, "winner": "NOR" },
     "m92": { "homeGoals": 2, "awayGoals": 3, "winner": "ENG" },
     "m93": { "homeGoals": 1, "awayGoals": 0, "winner": "ESP" },
-    "m94": { "homeGoals": 1, "awayGoals": 4, "winner": "BEL" }
+    "m94": { "homeGoals": 1, "awayGoals": 4, "winner": "BEL" },
+    "m95": { "homeGoals": 3, "awayGoals": 2, "winner": "ARG" }
   }
 }
