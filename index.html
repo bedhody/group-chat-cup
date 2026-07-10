@@ -178,13 +178,12 @@
   .tier-rows{display:flex;flex-direction:column}
   .trow{display:grid;grid-template-columns:24px 1fr auto;gap:10px;align-items:center;padding:9px 13px;border-top:2px solid rgba(23,20,15,.08)}
   .trow:first-child{border-top:none}
-  .trow.dead{opacity:.58}
   .tr-rank{font-family:var(--disp);font-weight:800;font-size:15px;color:var(--muted);text-align:center}
   .tr-main{min-width:0}
-  .tr-team{display:flex;align-items:center;gap:7px;min-width:0}
-  .tr-team .fl{font-size:19px;line-height:1;flex:none}
-  .tr-team .tn{font-family:var(--disp);font-weight:700;font-size:15px;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .tr-own{font-family:var(--mono);font-size:10px;color:var(--muted);font-weight:600;margin-top:1px}
+  .tr-pname{font-family:var(--disp);font-weight:800;font-size:17px;text-transform:uppercase;letter-spacing:-.01em;line-height:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tr-teamline{margin-top:6px}
+  .tr-teamline .chip{font-size:11px;padding:2px 8px 2px 6px}
+  .tr-teamline .chip .fl{font-size:14px}
   .tr-right{text-align:right;white-space:nowrap}
   .tr-pos{font-family:var(--mono);font-weight:700;font-size:14px}
   .tr-pos.fin{color:var(--coral)}
@@ -368,8 +367,8 @@ function tierTable(teams,label,sub){
       return `<div class="trow ${alive?'':'dead'}">
         <div class="tr-rank">${i+1}</div>
         <div class="tr-main">
-          <div class="tr-team"><span class="fl">${t.flag}</span><span class="tn">${t.name}</span></div>
-          <div class="tr-own">${OWNER[t.code]||'—'}</div>
+          <div class="tr-pname">${OWNER[t.code]||'—'}</div>
+          <div class="tr-teamline">${chip(t)}</div>
         </div>
         <div class="tr-right">
           <div class="tr-pos ${pi.final?'fin':''}">${pi.txt}${pi.final?' ✓':'<span class="ex">exp</span>'}</div>
