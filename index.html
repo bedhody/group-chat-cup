@@ -166,6 +166,46 @@
   .wt .delta{font-family:var(--mono);font-weight:700;font-size:13px;color:var(--green-d);white-space:nowrap}
   .nowatch{font-family:var(--mono);font-size:12px;color:var(--muted);padding:10px;text-align:center}
 
+  /* ---------- tier tables (under the hood) ---------- */
+  .tierlegend{font-family:var(--mono);font-size:11.5px;color:var(--muted);line-height:1.6;margin:-4px 0 16px}
+  .tierlegend b{color:var(--ink)}
+  .tiers{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:720px){.tiers{grid-template-columns:1fr}}
+  .tier{border:var(--b);border-radius:14px;background:var(--paper);box-shadow:var(--shadow);overflow:hidden}
+  .tier-h{background:var(--ink);color:var(--paper);padding:12px 15px}
+  .tier-t{font-family:var(--disp);font-weight:800;text-transform:uppercase;font-size:19px;letter-spacing:.01em;line-height:1}
+  .tier-s{font-family:var(--mono);font-size:10px;color:var(--yellow);font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-top:3px}
+  .tier-rows{display:flex;flex-direction:column}
+  .trow{display:grid;grid-template-columns:24px 1fr auto;gap:10px;align-items:center;padding:9px 13px;border-top:2px solid rgba(23,20,15,.08)}
+  .trow:first-child{border-top:none}
+  .trow.dead{opacity:.58}
+  .tr-rank{font-family:var(--disp);font-weight:800;font-size:15px;color:var(--muted);text-align:center}
+  .tr-main{min-width:0}
+  .tr-team{display:flex;align-items:center;gap:7px;min-width:0}
+  .tr-team .fl{font-size:19px;line-height:1;flex:none}
+  .tr-team .tn{font-family:var(--disp);font-weight:700;font-size:15px;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tr-own{font-family:var(--mono);font-size:10px;color:var(--muted);font-weight:600;margin-top:1px}
+  .tr-right{text-align:right;white-space:nowrap}
+  .tr-pos{font-family:var(--mono);font-weight:700;font-size:14px}
+  .tr-pos.fin{color:var(--coral)}
+  .tr-pos .ex{font-family:var(--mono);font-size:8.5px;font-weight:600;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-left:4px}
+  .tr-st{font-family:var(--mono);font-size:9.5px;font-weight:700;color:var(--muted);margin-top:2px;letter-spacing:.02em}
+  .trow.dead .tr-st{color:var(--coral)}
+
+  /* ---------- per-player score breakdown ---------- */
+  .scorebd{border:2px solid var(--ink);border-radius:12px;overflow:hidden}
+  .sb-row{display:flex;align-items:center;gap:9px;padding:11px 14px}
+  .sb-lbl{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);width:44px;flex:none}
+  .sb-row .fl{font-size:21px;flex:none}
+  .sb-nm{font-family:var(--disp);font-weight:700;font-size:16px;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .sb-pos{margin-left:auto;font-family:var(--mono);font-weight:700;font-size:16px;white-space:nowrap}
+  .sb-pos.fin{color:var(--coral)}
+  .sb-pos small{font-size:8.5px;color:var(--muted);font-weight:600;margin-left:4px;text-transform:uppercase;letter-spacing:.05em}
+  .sb-op{text-align:center;font-family:var(--disp);font-weight:800;font-size:15px;color:var(--muted);line-height:.4;padding:0 0 4px}
+  .sb-total{background:var(--yellow);padding:12px 14px;display:flex;align-items:baseline;gap:10px;border-top:2px solid var(--ink)}
+  .sb-total .tv{font-family:var(--mono);font-weight:800;font-size:25px;line-height:1}
+  .sb-total .tl{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+
   /* ---------- footer ---------- */
   footer{margin-top:54px;border-top:var(--b);padding-top:22px;font-family:var(--mono);font-size:11.5px;color:var(--muted);line-height:1.7}
   footer b{color:var(--ink)}
@@ -206,6 +246,7 @@ const posColor = i => i===0?PALETTE.gold : i<=2?PALETTE.green : i<=4?'#8FB89A' :
 
 let TEAMINFO = {};
 let OUT = {};
+let OWNER = {};   // team code -> player name (who drafted it)
 function ti(code){ return TEAMINFO[code] || {name:code,flag:'🏳️'}; }
 
 fetch('data.json?_='+Date.now()).then(r=>r.json()).then(render).catch(e=>{
@@ -219,6 +260,7 @@ function render(data){
   data.watchMeta.forEach(m=>{TEAMINFO[m.home.code]={name:m.home.name,flag:m.home.flag};TEAMINFO[m.away.code]={name:m.away.name,flag:m.away.flag};});
   data.players.forEach(p=>{TEAMINFO[p.aTeam.code]={name:p.aTeam.name,flag:p.aTeam.flag};TEAMINFO[p.bTeam.code]={name:p.bTeam.name,flag:p.bTeam.flag};});
   [...data.groups.A,...data.groups.B].forEach(t=>{ if(t.status && t.status.alive===false) OUT[t.code]=true; });
+  data.players.forEach(p=>{ OWNER[p.a]=p.name; OWNER[p.b]=p.name; });
 
   // header
   const fmt = data.generatedAt ? new Date(data.generatedAt).toLocaleDateString('en-GB',{day:'numeric',month:'short'}) : '—';
@@ -272,6 +314,11 @@ function render(data){
   });
   html += `</div>`;
 
+  // under the hood — the two draft groups (tier 1 / tier 2 standings)
+  html += `<div class="sect"><h2>Under the Hood</h2><span class="hint">your score = your Tier-1 team's spot + your Tier-2 team's spot · lower wins</span></div>`;
+  html += `<div class="tierlegend">Each group ranks its 8 teams by how far they go (round knocked out → goal difference → goals). <b>“exp”</b> is a team's expected average spot while it's still playing; a number with <b>✓</b> is locked in for good.</div>`;
+  html += `<div class="tiers">${tierTable(data.groups.A,'Tier 1','first picks')}${tierTable(data.groups.B,'Tier 2','second picks')}</div>`;
+
   // today's / next games
   if(data.watchMeta.length){
     html += `<div class="sect"><h2>Up Next</h2><span class="hint">the games that move the table</span></div><div class="fixtures">`;
@@ -301,6 +348,51 @@ function chip(t){
 }
 function ordinal(n){const s=['th','st','nd','rd'],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0]);}
 function roundName(r){return {R32:'Round of 32',R16:'Round of 16',QF:'Quarter-final',SF:'Semi-final',F:'Final'}[r]||r;}
+
+// expected within-group finishing position (1..8) from the position distribution
+function expectedPos(pp){ return pp.reduce((s,v,i)=>s+(i+1)*v,0); }
+// a team's spot: {val, final, txt}. final = locked (all sims agree on one position).
+function posInfo(t){
+  const pp=t.posProbs, mx=Math.max(...pp);
+  if(mx>0.9995){ const n=pp.indexOf(mx)+1; return {val:n, final:true, txt:ordinal(n)}; }
+  const e=expectedPos(pp); return {val:e, final:false, txt:e.toFixed(1)};
+}
+// one tier standings table (teams ranked by expected group position)
+function tierTable(teams,label,sub){
+  const rows = teams.map(t=>({t,e:expectedPos(t.posProbs)}))
+    .sort((a,b)=>a.e-b.e)
+    .map(({t},i)=>{
+      const alive = !t.status || t.status.alive!==false;
+      const pi = posInfo(t);
+      const stTxt = alive ? 'still in' : ('out · '+roundName(t.status.round));
+      return `<div class="trow ${alive?'':'dead'}">
+        <div class="tr-rank">${i+1}</div>
+        <div class="tr-main">
+          <div class="tr-team"><span class="fl">${t.flag}</span><span class="tn">${t.name}</span></div>
+          <div class="tr-own">${OWNER[t.code]||'—'}</div>
+        </div>
+        <div class="tr-right">
+          <div class="tr-pos ${pi.final?'fin':''}">${pi.txt}${pi.final?' ✓':'<span class="ex">exp</span>'}</div>
+          <div class="tr-st">${stTxt}</div>
+        </div>
+      </div>`;
+    }).join('');
+  return `<div class="tier"><div class="tier-h"><div class="tier-t">${label}</div><div class="tier-s">${sub} · lower = better</div></div><div class="tier-rows">${rows}</div></div>`;
+}
+// per-player: tier-1 spot + tier-2 spot = total score
+function scoreBreakdown(p,aCard,bCard){
+  const a=posInfo(aCard), b=posInfo(bCard);
+  const bothFinal = a.final && b.final;
+  const total = bothFinal ? (a.val+b.val) : p.expScore.toFixed(1);
+  const row=(lbl,t,pi)=>`<div class="sb-row"><span class="sb-lbl">${lbl}</span><span class="fl">${t.flag}</span><span class="sb-nm">${t.name}</span><span class="sb-pos ${pi.final?'fin':''}">${pi.txt}<small>${pi.final?'final':'exp'}</small></span></div>`;
+  return `<div class="scorebd">
+    ${row('Tier 1',aCard,a)}
+    <div class="sb-op">＋</div>
+    ${row('Tier 2',bCard,b)}
+    <div class="sb-op">＝</div>
+    <div class="sb-total"><span class="tv">${total}</span><span class="tl">${bothFinal?'final score':'expected score'} · lower wins</span></div>
+  </div>`;
+}
 
 function openPlayer(name,data,leagueRankByName){
   const p = data.players.find(x=>x.name===name); if(!p) return;
@@ -349,6 +441,9 @@ function openPlayer(name,data,leagueRankByName){
         <div class="bs"><div class="v">${p.expRank.toFixed(1)}</div><div class="l">avg finish</div></div>
         <div class="bs"><div class="v">${p.expScore.toFixed(1)}</div><div class="l">avg score</div></div>
       </div>
+
+      <div class="blocktitle">🧮 Your score, under the hood</div>
+      ${scoreBreakdown(p,aCard,bCard)}
 
       <div class="blocktitle">👀 Watch list — what to root for</div>
       <div class="watch">${watchHtml}</div>
