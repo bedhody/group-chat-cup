@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-11",
+  "generatedAt": "2026-07-12",
   "nSims": 50000,
-  "completed": 26,
+  "completed": 28,
   "players": [
     {
       "name": "Dhody",
@@ -20,38 +20,29 @@
         "elo": 1795
       },
       "rankProbs": [
-        0.00364,
-        0.137,
-        0.33944,
-        0.2201,
-        0.1672,
-        0.09996,
-        0.03266,
+        0.01588,
+        0.13226,
+        0.34992,
+        0.28116,
+        0.1142,
+        0.0784,
+        0.02818,
         0
       ],
-      "pWin": 0.00364,
-      "pTop3": 0.48008000000000006,
-      "pBottom3": 0.13262,
-      "expRank": 3.84074,
-      "expScore": 8.5999,
+      "pWin": 0.01588,
+      "pTop3": 0.49806,
+      "pBottom3": 0.10658,
+      "expRank": 3.69346,
+      "expScore": 8.38816,
       "watch": [
-        {
-          "matchId": "m99",
-          "root": "NOR",
-          "vs": "ENG",
-          "swing": 0.6936485621217323,
-          "winSwing": 0.004988898330637866,
-          "rootImprovesRankBy": 0.6936485621217323,
-          "rootRaisesWinBy": -0.004988898330637866
-        },
         {
           "matchId": "m101",
           "root": "FRA",
           "vs": "ESP",
-          "swing": 0.2995780889940658,
-          "winSwing": 0.00764770148751996,
-          "rootImprovesRankBy": 0.2995780889940658,
-          "rootRaisesWinBy": -0.00764770148751996
+          "swing": 0.17872151671094327,
+          "winSwing": 0.03384917082320842,
+          "rootImprovesRankBy": 0.17872151671094327,
+          "rootRaisesWinBy": -0.03384917082320842
         }
       ]
     },
@@ -72,29 +63,29 @@
         "elo": 1850
       },
       "rankProbs": [
-        0.9048,
-        0.06504,
-        0.03016,
+        0.79772,
+        0.13996,
+        0.06232,
         0,
         0,
         0,
         0,
         0
       ],
-      "pWin": 0.9048,
+      "pWin": 0.79772,
       "pTop3": 1,
       "pBottom3": 0,
-      "expRank": 1.12536,
-      "expScore": 4.2831,
+      "expRank": 1.2646,
+      "expScore": 5.39634,
       "watch": [
         {
-          "matchId": "m99",
-          "root": "NOR",
+          "matchId": "m102",
+          "root": "ARG",
           "vs": "ENG",
-          "swing": 0.17181546558482497,
-          "winSwing": 0.13047887941668268,
-          "rootImprovesRankBy": 0.17181546558482497,
-          "rootRaisesWinBy": 0.13047887941668268
+          "swing": 0.18862285659514733,
+          "winSwing": 0.12105470824409925,
+          "rootImprovesRankBy": 0.18862285659514733,
+          "rootRaisesWinBy": 0.12105470824409925
         }
       ]
     },
@@ -117,35 +108,26 @@
       "rankProbs": [
         0,
         0,
-        0.00766,
-        0.17728,
-        0.15426,
-        0.19248,
-        0.46832,
+        0,
+        0.13802,
+        0.18238,
+        0.09948,
+        0.58012,
         0
       ],
       "pWin": 0,
-      "pTop3": 0.00766,
-      "pBottom3": 0.6608,
-      "expRank": 5.93652,
-      "expScore": 10.3281,
+      "pTop3": 0,
+      "pBottom3": 0.6796,
+      "expRank": 6.1217,
+      "expScore": 10.54688,
       "watch": [
         {
-          "matchId": "m100",
-          "root": "SUI",
-          "vs": "ARG",
-          "swing": 0.7414106539131495,
-          "winSwing": 0,
-          "rootImprovesRankBy": 0.7414106539131495,
-          "rootRaisesWinBy": 0
-        },
-        {
-          "matchId": "m99",
+          "matchId": "m102",
           "root": "ENG",
-          "vs": "NOR",
-          "swing": 0.08893044241614234,
+          "vs": "ARG",
+          "swing": 0.22884927099135322,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.08893044241614234,
+          "rootImprovesRankBy": 0.22884927099135322,
           "rootRaisesWinBy": 0
         }
       ]
@@ -167,38 +149,29 @@
         "elo": 1895
       },
       "rankProbs": [
-        0.02176,
-        0.26202,
-        0.22472,
-        0.33518,
-        0.13082,
-        0.0255,
+        0.08592,
+        0.24006,
+        0.17596,
+        0.45218,
+        0.04374,
+        0.00214,
         0,
         0
       ],
-      "pWin": 0.02176,
-      "pTop3": 0.5085,
-      "pBottom3": 0.0255,
-      "expRank": 3.36778,
-      "expScore": 7.84828,
+      "pWin": 0.08592,
+      "pTop3": 0.50194,
+      "pBottom3": 0.00214,
+      "expRank": 3.13418,
+      "expScore": 7.66862,
       "watch": [
         {
-          "matchId": "m100",
-          "root": "SUI",
-          "vs": "ARG",
-          "swing": 1.0364438761031196,
-          "winSwing": 0.02845709204090707,
-          "rootImprovesRankBy": 1.0364438761031196,
-          "rootRaisesWinBy": -0.02845709204090707
-        },
-        {
           "matchId": "m101",
-          "root": "FRA",
-          "vs": "ESP",
-          "swing": 0.05874151676542194,
-          "winSwing": 0.045718127573745694,
-          "rootImprovesRankBy": 0.05874151676542194,
-          "rootRaisesWinBy": -0.045718127573745694
+          "root": "ESP",
+          "vs": "FRA",
+          "swing": 0.139688946060061,
+          "winSwing": 0.18314362450441232,
+          "rootImprovesRankBy": 0.139688946060061,
+          "rootRaisesWinBy": 0.18314362450441232
         }
       ]
     },
@@ -221,35 +194,35 @@
       "rankProbs": [
         0,
         0,
-        0.01268,
-        0.18094,
-        0.23346,
-        0.26048,
-        0.31244,
+        0,
+        0.08986,
+        0.31858,
+        0.35924,
+        0.23232,
         0
       ],
       "pWin": 0,
-      "pTop3": 0.01268,
-      "pBottom3": 0.57292,
-      "expRank": 5.67906,
-      "expScore": 9.97626,
+      "pTop3": 0,
+      "pBottom3": 0.59156,
+      "expRank": 5.73402,
+      "expScore": 9.50094,
       "watch": [
         {
           "matchId": "m101",
           "root": "FRA",
           "vs": "ESP",
-          "swing": 0.5672898057287625,
+          "swing": 0.7692578074907299,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.5672898057287625,
+          "rootImprovesRankBy": 0.7692578074907299,
           "rootRaisesWinBy": 0
         },
         {
-          "matchId": "m100",
-          "root": "ARG",
-          "vs": "SUI",
-          "swing": 0.4905113956313416,
+          "matchId": "m102",
+          "root": "ENG",
+          "vs": "ARG",
+          "swing": 0.24014877216055375,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.4905113956313416,
+          "rootImprovesRankBy": 0.24014877216055375,
           "rootRaisesWinBy": 0
         }
       ]
@@ -271,47 +244,38 @@
         "elo": 1895
       },
       "rankProbs": [
-        0.0698,
-        0.53594,
-        0.38534,
-        0.00892,
+        0.10048,
+        0.48772,
+        0.4118,
+        0,
         0,
         0,
         0,
         0
       ],
-      "pWin": 0.0698,
-      "pTop3": 0.99108,
+      "pWin": 0.10048,
+      "pTop3": 1,
       "pBottom3": 0,
-      "expRank": 2.33338,
-      "expScore": 6.96436,
+      "expRank": 2.31132,
+      "expScore": 6.49906,
       "watch": [
         {
-          "matchId": "m100",
+          "matchId": "m102",
           "root": "ARG",
-          "vs": "SUI",
-          "swing": 0.3130911859915195,
-          "winSwing": 0.09128240002092433,
-          "rootImprovesRankBy": 0.3130911859915195,
-          "rootRaisesWinBy": 0.09128240002092433
+          "vs": "ENG",
+          "swing": 0.45573459340539735,
+          "winSwing": 0.04606870287802045,
+          "rootImprovesRankBy": 0.45573459340539735,
+          "rootRaisesWinBy": 0.04606870287802045
         },
         {
           "matchId": "m101",
           "root": "ESP",
           "vs": "FRA",
-          "swing": 0.1735032643365222,
-          "winSwing": 0.14665097907387176,
-          "rootImprovesRankBy": 0.1735032643365222,
-          "rootRaisesWinBy": 0.14665097907387176
-        },
-        {
-          "matchId": "m99",
-          "root": "NOR",
-          "vs": "ENG",
-          "swing": 0.03122187379451713,
-          "winSwing": 0.09566623721937446,
-          "rootImprovesRankBy": 0.03122187379451713,
-          "rootRaisesWinBy": -0.09566623721937446
+          "swing": 0.2620087444113972,
+          "winSwing": 0.21417913629193844,
+          "rootImprovesRankBy": 0.2620087444113972,
+          "rootRaisesWinBy": 0.21417913629193844
         }
       ]
     },
@@ -348,27 +312,18 @@
       "expScore": 14,
       "watch": [
         {
-          "matchId": "m99",
-          "root": "ENG",
-          "vs": "NOR",
-          "swing": 0,
-          "winSwing": 0,
-          "rootImprovesRankBy": 0,
-          "rootRaisesWinBy": 0
-        },
-        {
-          "matchId": "m100",
-          "root": "SUI",
-          "vs": "ARG",
-          "swing": 0,
-          "winSwing": 0,
-          "rootImprovesRankBy": 0,
-          "rootRaisesWinBy": 0
-        },
-        {
           "matchId": "m101",
           "root": "ESP",
           "vs": "FRA",
+          "swing": 0,
+          "winSwing": 0,
+          "rootImprovesRankBy": 0,
+          "rootRaisesWinBy": 0
+        },
+        {
+          "matchId": "m102",
+          "root": "ARG",
+          "vs": "ENG",
           "swing": 0,
           "winSwing": 0,
           "rootImprovesRankBy": 0,
@@ -396,43 +351,34 @@
         0,
         0,
         0,
-        0.07758,
-        0.31426,
-        0.42158,
-        0.18658,
+        0.03878,
+        0.3411,
+        0.46074,
+        0.15938,
         0
       ],
       "pWin": 0,
       "pTop3": 0,
-      "pBottom3": 0.60816,
-      "expRank": 5.71716,
+      "pBottom3": 0.62012,
+      "expRank": 5.74072,
       "expScore": 10,
       "watch": [
-        {
-          "matchId": "m99",
-          "root": "ENG",
-          "vs": "NOR",
-          "swing": 0.887363248297568,
-          "winSwing": 0,
-          "rootImprovesRankBy": 0.887363248297568,
-          "rootRaisesWinBy": 0
-        },
         {
           "matchId": "m101",
           "root": "FRA",
           "vs": "ESP",
-          "swing": 0.7411554245151377,
+          "swing": 0.7618566618745071,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.7411554245151377,
+          "rootImprovesRankBy": 0.7618566618745071,
           "rootRaisesWinBy": 0
         },
         {
-          "matchId": "m100",
-          "root": "SUI",
+          "matchId": "m102",
+          "root": "ENG",
           "vs": "ARG",
-          "swing": 0.4539823627233952,
+          "swing": 0.25413372877077833,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.4539823627233952,
+          "rootImprovesRankBy": 0.25413372877077833,
           "rootRaisesWinBy": 0
         }
       ]
@@ -445,10 +391,10 @@
         "name": "Argentina",
         "flag": "🇦🇷",
         "posProbs": [
-          0.2235,
-          0.27384,
-          0.18192,
-          0.32074,
+          0.26496,
+          0.29546,
+          0.22604,
+          0.21354,
           0,
           0,
           0,
@@ -457,9 +403,9 @@
         "reach": {
           "R16": 1,
           "QF": 1,
-          "SF": 0.76466,
-          "F": 0.4713,
-          "win": 0.2235
+          "SF": 1,
+          "F": 0.56042,
+          "win": 0.26496
         },
         "status": {
           "alive": true
@@ -470,10 +416,10 @@
         "name": "France",
         "flag": "🇫🇷",
         "posProbs": [
-          0.3319,
-          0.2429,
-          0.29478,
-          0.13042,
+          0.30136,
+          0.2295,
+          0.24058,
+          0.22856,
           0,
           0,
           0,
@@ -483,8 +429,8 @@
           "R16": 1,
           "QF": 1,
           "SF": 1,
-          "F": 0.52404,
-          "win": 0.31518
+          "F": 0.53086,
+          "win": 0.30136
         },
         "status": {
           "alive": true
@@ -495,10 +441,10 @@
         "name": "Spain",
         "flag": "🇪🇸",
         "posProbs": [
-          0.29112,
-          0.24002,
-          0.3185,
-          0.15036,
+          0.25356,
+          0.21558,
+          0.26128,
+          0.26958,
           0,
           0,
           0,
@@ -508,8 +454,8 @@
           "R16": 1,
           "QF": 1,
           "SF": 1,
-          "F": 0.47596,
-          "win": 0.2754
+          "F": 0.46914,
+          "win": 0.25356
         },
         "status": {
           "alive": true
@@ -520,10 +466,10 @@
         "name": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "posProbs": [
-          0.15348,
-          0.24324,
-          0.2048,
-          0.39848,
+          0.18012,
+          0.25946,
+          0.2721,
+          0.28832,
           0,
           0,
           0,
@@ -532,9 +478,9 @@
         "reach": {
           "R16": 1,
           "QF": 1,
-          "SF": 0.72962,
-          "F": 0.37102,
-          "win": 0.15348
+          "SF": 1,
+          "F": 0.43958,
+          "win": 0.18012
         },
         "status": {
           "alive": true
@@ -677,9 +623,9 @@
         "name": "Switzerland",
         "flag": "🇨🇭",
         "posProbs": [
-          0.3441,
-          0.25242,
-          0.40348,
+          0,
+          0,
+          1,
           0,
           0,
           0,
@@ -689,12 +635,13 @@
         "reach": {
           "R16": 1,
           "QF": 1,
-          "SF": 0.23534,
-          "F": 0.07906,
-          "win": 0.01652
+          "SF": 0,
+          "F": 0,
+          "win": 0
         },
         "status": {
-          "alive": true
+          "alive": false,
+          "round": "QF"
         }
       },
       {
@@ -754,9 +701,9 @@
         "name": "Norway",
         "flag": "🇳🇴",
         "posProbs": [
-          0.38778,
-          0.24818,
-          0.36404,
+          0.49906,
+          0.50094,
+          0,
           0,
           0,
           0,
@@ -766,12 +713,13 @@
         "reach": {
           "R16": 1,
           "QF": 1,
-          "SF": 0.27038,
-          "F": 0.07862,
-          "win": 0.01592
+          "SF": 0,
+          "F": 0,
+          "win": 0
         },
         "status": {
-          "alive": true
+          "alive": false,
+          "round": "QF"
         }
       },
       {
@@ -779,9 +727,9 @@
         "name": "Belgium",
         "flag": "🇧🇪",
         "posProbs": [
-          0.26812,
-          0.4994,
-          0.23248,
+          0.50094,
+          0.49906,
+          0,
           0,
           0,
           0,
@@ -856,38 +804,6 @@
   },
   "watchMeta": [
     {
-      "matchId": "m99",
-      "round": "QF",
-      "home": {
-        "code": "NOR",
-        "name": "Norway",
-        "flag": "🇳🇴",
-        "elo": 1840
-      },
-      "away": {
-        "code": "ENG",
-        "name": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "elo": 2005
-      }
-    },
-    {
-      "matchId": "m100",
-      "round": "QF",
-      "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "🇦🇷",
-        "elo": 2045
-      },
-      "away": {
-        "code": "SUI",
-        "name": "Switzerland",
-        "flag": "🇨🇭",
-        "elo": 1850
-      }
-    },
-    {
       "matchId": "m101",
       "round": "SF",
       "home": {
@@ -901,6 +817,22 @@
         "name": "Spain",
         "flag": "🇪🇸",
         "elo": 2055
+      }
+    },
+    {
+      "matchId": "m102",
+      "round": "SF",
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "elo": 2005
+      },
+      "away": {
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "elo": 2045
       }
     }
   ],
@@ -1239,6 +1171,30 @@
         "Shri": 2.33,
         "Anuj": 8,
         "Dhirani": 5.72
+      }
+    },
+    {
+      "at": "2026-07-12",
+      "completed": 28,
+      "pWin": {
+        "Dhody": 1.6,
+        "Shishu": 79.8,
+        "Misra": 0,
+        "Mad": 8.6,
+        "Kuks": 0,
+        "Shri": 10,
+        "Anuj": 0,
+        "Dhirani": 0
+      },
+      "expRank": {
+        "Dhody": 3.69,
+        "Shishu": 1.26,
+        "Misra": 6.12,
+        "Mad": 3.13,
+        "Kuks": 5.73,
+        "Shri": 2.31,
+        "Anuj": 8,
+        "Dhirani": 5.74
       }
     }
   ]
