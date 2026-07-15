@@ -358,5 +358,29 @@
       "Anuj": 8,
       "Dhirani": 5.74
     }
+  },
+  {
+    "at": "2026-07-15",
+    "completed": 29,
+    "pWin": {
+      "Dhody": 5.9,
+      "Shishu": 35.9,
+      "Misra": 0,
+      "Mad": 23.9,
+      "Kuks": 0,
+      "Shri": 34.3,
+      "Anuj": 0,
+      "Dhirani": 0
+    },
+    "expRank": {
+      "Dhody": 3.57,
+      "Shishu": 1.85,
+      "Misra": 5.25,
+      "Mad": 2.89,
+      "Kuks": 6.21,
+      "Shri": 2.02,
+      "Anuj": 8,
+      "Dhirani": 6.22
+    }
   }
 ]
