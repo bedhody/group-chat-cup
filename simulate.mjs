@@ -132,7 +132,11 @@ function rankGroup(codes, res) {
       // random order for pairs that have no recorded result yet.
       if (TIEBREAKS.length) cluster.sort((a, b) => pinOrder(a.c, b.c));
     }
-    cluster.forEach((t, k) => { pos[t.c] = i + k + 1; coin[t.c] = cluster.length > 1; });
+    // "loser tosses again": only the team(s) that WON the toss (any slot above
+    // the cluster's worst) stay coin-dependent and can be beaten by a merit
+    // player in a league tie. The bottom team is the toss-loser and is treated
+    // as merit — it gets a fresh coin toss in a league tie instead of an auto-loss.
+    cluster.forEach((t, k) => { pos[t.c] = i + k + 1; coin[t.c] = cluster.length > 1 && k < cluster.length - 1; });
     i = j;
   }
   return { pos, coin };

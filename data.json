@@ -20,20 +20,20 @@
         "elo": 1795
       },
       "rankProbs": [
-        0.23822,
-        0.24658,
-        0.25782,
-        0.25738,
+        0.16138,
+        0.16048,
+        0.41636,
+        0.26178,
         0,
         0,
         0,
         0
       ],
-      "pWin": 0.23822,
-      "pTop3": 0.7426200000000001,
+      "pWin": 0.16138,
+      "pTop3": 0.7382200000000001,
       "pBottom3": 0,
-      "expRank": 2.53436,
-      "expScore": 7.5152,
+      "expRank": 2.77854,
+      "expScore": 7.51654,
       "watch": []
     },
     {
@@ -53,29 +53,29 @@
         "elo": 1850
       },
       "rankProbs": [
-        0.76178,
-        0.23822,
-        0,
+        0.42182,
+        0.4173,
+        0.16088,
         0,
         0,
         0,
         0,
         0
       ],
-      "pWin": 0.76178,
+      "pWin": 0.42182,
       "pTop3": 1,
       "pBottom3": 0,
-      "expRank": 1.23822,
+      "expRank": 1.73906,
       "expScore": 7,
       "watch": [
         {
           "matchId": "m103",
           "root": "ESP",
           "vs": "ARG",
-          "swing": 0.4913778877887789,
-          "winSwing": 0.4913778877887789,
-          "rootImprovesRankBy": 0.4913778877887789,
-          "rootRaisesWinBy": 0.4913778877887789
+          "swing": 0.4997230497370939,
+          "winSwing": 0.16695508547945098,
+          "rootImprovesRankBy": 0.4997230497370939,
+          "rootRaisesWinBy": 0.16695508547945098
         }
       ]
     },
@@ -100,16 +100,16 @@
         0,
         0,
         0,
-        0.5152,
-        0.24254,
-        0.24226,
+        0.51654,
+        0.24234,
+        0.24112,
         0
       ],
       "pWin": 0,
       "pTop3": 0,
-      "pBottom3": 0.4848,
-      "expRank": 5.72706,
-      "expScore": 9.4848,
+      "pBottom3": 0.48346,
+      "expRank": 5.72458,
+      "expScore": 9.48346,
       "watch": []
     },
     {
@@ -131,26 +131,26 @@
       "rankProbs": [
         0,
         0,
-        0.25738,
-        0.74262,
+        0.26178,
+        0.73822,
         0,
         0,
         0,
         0
       ],
       "pWin": 0,
-      "pTop3": 0.25738,
+      "pTop3": 0.26178,
       "pBottom3": 0,
-      "expRank": 3.74262,
+      "expRank": 3.73822,
       "expScore": 8,
       "watch": [
         {
           "matchId": "m103",
           "root": "ESP",
           "vs": "ARG",
-          "swing": 0.4995729813664598,
+          "swing": 0.5067952143106051,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.4995729813664598,
+          "rootImprovesRankBy": 0.5067952143106051,
           "rootRaisesWinBy": 0
         }
       ]
@@ -176,15 +176,15 @@
         0,
         0,
         0,
-        0.4848,
-        0.5152,
+        0.48346,
+        0.51654,
         0,
         0
       ],
       "pWin": 0,
       "pTop3": 0,
-      "pBottom3": 0.5152,
-      "expRank": 5.5152,
+      "pBottom3": 0.51654,
+      "expRank": 5.51654,
       "expScore": 9,
       "watch": [
         {
@@ -215,29 +215,29 @@
         "elo": 1895
       },
       "rankProbs": [
-        0,
-        0.5152,
-        0.4848,
+        0.4168,
+        0.42222,
+        0.16098,
         0,
         0,
         0,
         0,
         0
       ],
-      "pWin": 0,
+      "pWin": 0.4168,
       "pTop3": 1,
       "pBottom3": 0,
-      "expRank": 2.4848,
+      "expRank": 1.74418,
       "expScore": 7,
       "watch": [
         {
           "matchId": "m103",
           "root": "ESP",
           "vs": "ARG",
-          "swing": 1,
-          "winSwing": 0,
-          "rootImprovesRankBy": 1,
-          "rootRaisesWinBy": 0
+          "swing": 0.4998218971044237,
+          "winSwing": 0.1668470905020159,
+          "rootImprovesRankBy": 0.4998218971044237,
+          "rootRaisesWinBy": 0.1668470905020159
         }
       ]
     },
@@ -306,23 +306,23 @@
         0,
         0,
         0,
-        0.24226,
-        0.75774,
+        0.24112,
+        0.75888,
         0
       ],
       "pWin": 0,
       "pTop3": 0,
       "pBottom3": 1,
-      "expRank": 6.75774,
+      "expRank": 6.75888,
       "expScore": 10,
       "watch": [
         {
           "matchId": "m103",
           "root": "ARG",
           "vs": "ESP",
-          "swing": 0.4997112211221122,
+          "swing": 0.4987382616969347,
           "winSwing": 0,
-          "rootImprovesRankBy": 0.4997112211221122,
+          "rootImprovesRankBy": 0.4987382616969347,
           "rootRaisesWinBy": 0
         }
       ]
@@ -335,8 +335,8 @@
         "name": "Argentina",
         "flag": "🇦🇷",
         "posProbs": [
-          0.4848,
-          0.5152,
+          0.48346,
+          0.51654,
           0,
           0,
           0,
@@ -349,7 +349,7 @@
           "QF": 1,
           "SF": 1,
           "F": 1,
-          "win": 0.4848
+          "win": 0.48346
         },
         "status": {
           "alive": true
@@ -386,8 +386,8 @@
         "name": "Spain",
         "flag": "🇪🇸",
         "posProbs": [
-          0.5152,
-          0.4848,
+          0.51654,
+          0.48346,
           0,
           0,
           0,
@@ -400,7 +400,7 @@
           "QF": 1,
           "SF": 1,
           "F": 1,
-          "win": 0.5152
+          "win": 0.51654
         },
         "status": {
           "alive": true
@@ -1195,6 +1195,30 @@
         "Mad": 3.74,
         "Kuks": 5.52,
         "Shri": 2.48,
+        "Anuj": 8,
+        "Dhirani": 6.76
+      }
+    },
+    {
+      "at": "2026-07-19",
+      "completed": 30,
+      "pWin": {
+        "Dhody": 16.1,
+        "Shishu": 42.2,
+        "Misra": 0,
+        "Mad": 0,
+        "Kuks": 0,
+        "Shri": 41.7,
+        "Anuj": 0,
+        "Dhirani": 0
+      },
+      "expRank": {
+        "Dhody": 2.78,
+        "Shishu": 1.74,
+        "Misra": 5.72,
+        "Mad": 3.74,
+        "Kuks": 5.52,
+        "Shri": 1.74,
         "Anuj": 8,
         "Dhirani": 6.76
       }
