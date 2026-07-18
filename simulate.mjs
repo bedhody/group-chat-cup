@@ -54,6 +54,16 @@ function simMatch(home, away) {
 // --- load completed results -------------------------------------------------
 const results = JSON.parse(readFileSync(join(__dir, 'results.json'), 'utf8'));
 const DONE = results.matches || {};
+// Real-world coin tosses that have been settled: pin one team above another so
+// the engine stops re-flipping that within-group tie. See results.json.
+const TIEBREAKS = results.tiebreaks || [];
+function pinOrder(x, y) {                          // -1: x ranks higher, +1: y higher, 0: undecided
+  for (const t of TIEBREAKS) {
+    if (t.over === x && t.under === y) return -1;
+    if (t.over === y && t.under === x) return 1;
+  }
+  return 0;
+}
 
 const matchIds = Object.keys(BRACKET);
 function participants(mId) {
@@ -118,6 +128,9 @@ function rankGroup(codes, res) {
         const r = Math.floor(Math.random() * (k + 1));
         [cluster[k], cluster[r]] = [cluster[r], cluster[k]];
       }
+      // apply any settled real-world coin tosses; the stable sort keeps the
+      // random order for pairs that have no recorded result yet.
+      if (TIEBREAKS.length) cluster.sort((a, b) => pinOrder(a.c, b.c));
     }
     cluster.forEach((t, k) => { pos[t.c] = i + k + 1; coin[t.c] = cluster.length > 1; });
     i = j;

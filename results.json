@@ -1,6 +1,7 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-19",
   "note": "Only completed knockout games go here. The daily routine adds a line per finished match. winner = team code that ADVANCED (after pens if needed). homeGoals/awayGoals = the score in regulation+ET (a penalty-shootout win is recorded as the drawn score, with winner set to whoever advanced).",
+  "tiebreaksNote": "Real-world coin tosses that resolve a within-group tie (same round/GD/goals). Each entry pins one team above another so the engine stops flipping that pair. `over` = the team that ranks higher, `under` = the team it beat.",
   "matches": {
     "m73": { "homeGoals": 0, "awayGoals": 1, "winner": "CAN" },
     "m74": { "homeGoals": 1, "awayGoals": 1, "winner": "PAR" },
@@ -32,5 +33,8 @@
     "m100": { "homeGoals": 3, "awayGoals": 1, "winner": "ARG" },
     "m101": { "homeGoals": 0, "awayGoals": 2, "winner": "ESP" },
     "m102": { "homeGoals": 1, "awayGoals": 2, "winner": "ARG" }
-  }
+  },
+  "tiebreaks": [
+    { "over": "NOR", "under": "BEL", "note": "2026-07-19 coin toss — Kuks (Norway) beat Shri (Belgium) for the tier-2 QF-exit tie; Belgium ranks 2nd in tier 2." }
+  ]
 }
